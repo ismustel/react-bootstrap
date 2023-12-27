@@ -115,9 +115,16 @@
 }
 .header {
   font-size: 30px;
+
+}
+.color_back{
+  background-color: cornflowerblue;
 }
 .nav_item_1 {
   font-size:20px;
+}
+.test{
+  background-color: #0b5fc4;
 }
 
 

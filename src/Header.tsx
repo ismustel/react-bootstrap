@@ -6,12 +6,10 @@ import './App.css'
 
 function Header() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary" bg='dark'>
-            <Container>
+        <Navbar expand="lg" className=" color_back"  >
+            <Container >
                 <Navbar.Brand href="#home" className='header'>Метеостанция Усть-Иша</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#graphics" className='nav_item_1'>Графики</Nav.Link>
-                    </Nav>
+
             </Container>
         </Navbar>
     );

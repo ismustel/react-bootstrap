@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardTemp from "./CardPamel";
+import CardTemp from "./CardPanel";
 import Header from "./Header";
 
 
