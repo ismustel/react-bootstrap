@@ -2,7 +2,7 @@ import {
     Card,
     ListGroup,
     CardTitle,
-    ListGroupItem, CardGroup, OverlayTrigger, Button
+    ListGroupItem, CardGroup,
 } from "react-bootstrap";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,6 +21,7 @@ import {
     Title,
     Tooltip,
     Legend,
+
 } from 'chart.js';
 
 
@@ -31,7 +32,8 @@ ChartJS.register(
     LineElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+
 );
 
 
@@ -75,6 +77,7 @@ function CardTemp() {
                     labels:[],
                     datasets:[
                         {
+                            data:[],
                             borderColor: '#475FB5',
                             backgroundColor: '#475FB5',
                         }
@@ -87,14 +90,7 @@ function CardTemp() {
                 "max": 0,
                 "min": 0,
                 "avg": 0,
-                "hours": {
-                    labels:[],
-                    datasets:[
-                        {
-                            data:[],
-                        }
-                    ]
-                }
+
             },
             "sensor__outside_humidity_bme280": {
                 "state": 0,
@@ -207,6 +203,7 @@ function CardTemp() {
                         }}
                               data={data.sensor__outside_humidity_bme280.hours}/>
                     </ListGroupItem>
+
 
                 </ListGroup>
             </Card>
